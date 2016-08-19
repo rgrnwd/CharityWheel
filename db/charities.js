@@ -9,5 +9,6 @@ exports.charities = [
     {"name": "BlackDog Institute", "emotion": "For mental health", "lastSelected":"", "votes" : 1},
     {"name": "Flying Doctors", "emotion": "Royal flying doctor service!", "lastSelected":"", "votes" : 1},
     {"name": "UNICEF", "emotion": "Children's emergency fund", "lastSelected":"", "votes" : 1},
-    {"name": "Young Care", "emotion": "Aussies with high care needs", "lastSelected":"", "votes" : 1}
+    {"name": "Young Care", "emotion": "Aussies with high care needs", "lastSelected":"", "votes" : 1},
+    {"name": "Indigenous literacy", "emotion": "The Indigenous literacy foundation", "lastSelected":"", "votes" : 1}
 ];
