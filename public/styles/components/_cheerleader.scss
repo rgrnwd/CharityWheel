@@ -1,0 +1,20 @@
+
+.cheerleader{
+    
+    &.hidden{
+	   visibility: hidden;
+    }
+    &.right{
+        @include position(fixed,50%, initial, 80%);
+        @include size(30%, 15%);
+    }
+    &.left{
+        @include position(fixed,50%,initial, 5%);
+        @include size(30%, 15%);
+    }
+    &.bottom{
+        @include position(fixed,initial, 0, 0);
+        width: 100%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,30 @@
+@mixin background-gradient($colorFrom, $colorTo) {
+    background: -webkit-gradient(linear, 0 0, 0 100%, from($colorTo), to($colorFrom));
+    background: -moz-linear-gradient($colorTo, $colorFrom);
+    background: -o-linear-gradient($colorTo, $colorFrom);
+    background: linear-gradient($colorTo, $colorFrom);
+}
+
+@mixin border-radius($radius){
+    -webkit-border-top-left-radius: $radius;
+    -webkit-border-top-right-radius: $radius;
+    -webkit-border-bottom-right-radius: $radius;
+    -webkit-border-bottom-left-radius: $radius;
+    -moz-border-radius: $radius;
+    border-radius: $radius;
+}
+
+@mixin position($position, $top, $bottom, $left){
+    position: $position;
+    top: $top;
+    bottom: $bottom;
+    left: $left;    
+}
+@mixin size($height, $width){
+    height:$height;
+    width: $width;
+}
+@mixin square-size($size){
+    width: $size;
+    height:$size;
+}

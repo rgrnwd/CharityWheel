@@ -1,0 +1,10 @@
+
+.bee-marker{
+    cursor: pointer;
+    @include size(70px,50px);
+    @include position(absolute, 90px, initial, 49%);
+
+    &:hover{
+        transform: scale(1.1);
+    }
+}

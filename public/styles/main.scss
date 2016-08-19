@@ -1,0 +1,24 @@
+@import 'common/variables';
+@import 'common/mixins';
+
+@import 'components/cheerleader';
+@import 'components/speech-bubble';
+@import 'components/marker';
+
+body {
+  font: $body-font;
+  background: url("../images/background.jpg");
+  background-size: cover;
+  margin: 10px 0px;
+}
+
+.content {
+  width:100%;
+  text-align: center;
+}
+
+#canvas {
+  display: inline;
+  cursor:pointer;
+  margin-top: 40px;
+}
