@@ -37,10 +37,10 @@ charityModel.find(function(err, charities) {
     // Un-comment this section to refresh charity list!
     // =========== ============ ============ ============
 
-    charityModel.remove({}, function(err) {
-       console.log('collection removed');
-       populatecharities();
-    });
+    // charityModel.remove({}, function(err) {
+    //    console.log('collection removed');
+    //    populatecharities();
+    // });
   }
   else {
     populatecharities();
